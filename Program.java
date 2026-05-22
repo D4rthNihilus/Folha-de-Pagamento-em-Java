@@ -52,7 +52,7 @@ public class Program {
                         System.out.print("Informe o valor total faturado nas vendas: ");
                         double faturamentoVendas = sc.nextDouble();
 
-                        while(!validarDecimal(faturamentoVendas)){sc.nextDouble();}
+                        while(!validarDecimal(faturamentoVendas)){faturamentoVendas=sc.nextDouble();}
 
                         System.out.print("Informe o valor da comissão percentual por venda: ");
                         double comissaoPercentual = sc.nextDouble();
