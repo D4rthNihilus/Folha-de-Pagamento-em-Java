@@ -72,7 +72,7 @@ public class Program {
                         System.out.print("Informe o valor por peça produzida: ");
                         double valorDaPeca = sc.nextDouble();
 
-                        while(!validarDecimal(valorDaPeca)){valorDaPeca = sc.nextInt();}
+                        while(!validarDecimal(valorDaPeca)){valorDaPeca = sc.nextDouble();}
 
                         cadastrarFuncionarioProducao(listaDeFuncionarios, registro, nome, pecasProduzidas, valorDaPeca);
 
