@@ -15,7 +15,7 @@ public class Program {
         List<Funcionario> listaDeFuncionarios = new ArrayList<>();
 
         //MENU INICIAL
-
+        
         System.out.println("Seja bem vindo ao Sistema de Folha Pagamento em Java!");
         gerarMenuDeOpcoes();
         int opcao = sc.nextInt();
